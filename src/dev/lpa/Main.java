@@ -18,6 +18,21 @@ public class Main {
         System.out.println("Min = " + Math.min(10.0000002, 10.001f));
 
 
+        System.out.println("Round down = " + Math.round(10.2));
+        System.out.println("Round up = " + Math.round(10.8));
+        System.out.println("Round ? = " + Math.round(10.5));
+
+
+        System.out.println("Floor = " + Math.floor(10.8));
+        System.out.println("Ceil = " + Math.ceil(10.2));
+
+
+        System.out.println("Sqrt 100 " + Math.sqrt(100));
+        System.out.println("2 ^ 3 = " + Math.pow(2, 3));
+
+        for (int i =0; i<10; i++){
+            System.out.println(Math.random());
+        }
 
 
 
